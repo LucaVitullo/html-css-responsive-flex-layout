@@ -28,27 +28,181 @@ header {
   font-size: 1.3rem;
 }
 
-.block-sez1 {
+.block-sez {
   padding: 40px;
   display: flex;
   margin: 20px;
   flex-direction: column;
   align-items: center;
-  background-color: lightcyan;
   border-radius: 20px;
 }
 
-.cont-sez1 {background-color: white;}
+.cont-sez1 {
+  background-color: white;
+}
 
 .img {
   width: 200px;
   height: 200px;
   background-color: bisque;
-  /* margin: 20px; */
   margin-bottom: 20px;
-  /* padding: 20px; */
 }
 
-.description {
-  /* padding: 20px; */
+.bg-cyan {
+  background-color: lightcyan;
+}
+
+.bg-green {
+  background-color: lightgreen;
+}
+.bg-coral {
+  background-color: lightcoral;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+.bg-plum {
+  background-color: plum;
+}
+
+.sezione2 {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+}
+
+.cont-sez2-top {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-square {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  background-color: brown;
+}
+
+.cont-sez2-top h3 {
+  margin-bottom: 10px;
+}
+
+.cont-sez2-bottom {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.cont-sez2-bottom .blocktest {
+  padding: 10px;
+}
+.block-square-bottom {
+  width: 200px;
+  height: 200px;
+  margin: 20px 0;
+  background-color: brown;
+}
+
+.sezione3 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.bord-rad50 {
+  border-radius: 50%;
+}
+
+.sezione3 .block-sez {
+  text-align: center;
+}
+
+.block-sez h3 {
+  margin-bottom: 20px;
+}
+
+.sezione4 {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-blocks {
+  margin: 20px;
+}
+
+.block-sez4 {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.block-sez4 h2,
+h4 {
+  color: blue;
+}
+
+.sezione5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.cont5 {
+  margin: 20px;
+}
+
+.text-sez5 p {
+  margin: 50px 0;
+}
+
+.profile-sez5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-sez5 h3 {
+  color: violet;
+}
+.user {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-bottom: 20px;
+}
+
+.sezione6 {
+  background-color: blueviolet;
+  text-align: center;
+  padding: 40px;
+}
+
+.get-started > * {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.get-started h1 {
+  color: orange;
+}
+
+.get-started button {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  color: blueviolet;
+  border: none;
+}
+
+footer {
+  background-color: #333333;
+  padding: 20px;
+  text-align: center;
+  color: lightgray;
 }
