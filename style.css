@@ -207,9 +207,19 @@ footer {
   color: lightgray;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 720px) {
   .cont-sez1 {
     display: flex;
     flex-wrap: wrap;
+  }
+  .media600px {
+    display: flex;
+    width: calc(100% / 2 - 40px);
+  }
+  .cont-sez1 .bg-cyan {
+    width: 100%;
+  }
+
+  .media600px2 {
   }
 }
