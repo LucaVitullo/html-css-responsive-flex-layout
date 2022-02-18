@@ -31,21 +31,24 @@ header {
 .block-sez1 {
   padding: 40px;
   display: flex;
+  margin: 20px;
   flex-direction: column;
   align-items: center;
   background-color: lightcyan;
+  border-radius: 20px;
 }
 
-.cont-sez1 {
-}
+.cont-sez1 {background-color: white;}
 
 .img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background-color: bisque;
+  /* margin: 20px; */
   margin-bottom: 20px;
+  /* padding: 20px; */
 }
 
 .description {
-  padding: 20px;
+  /* padding: 20px; */
 }
