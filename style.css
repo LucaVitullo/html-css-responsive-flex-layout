@@ -17,9 +17,34 @@ header {
   justify-content: space-around;
 }
 
+.logo h1 {
+  color: white;
+}
+
 .menu-container button {
   background-color: transparent;
   color: white;
   border: none;
   font-size: 1.3rem;
+}
+
+.block-sez1 {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cont-sez1 {
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  background-color: bisque;
+  margin-bottom: 20px;
+}
+
+.description {
+  padding: 20px;
 }
