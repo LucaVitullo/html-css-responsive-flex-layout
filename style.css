@@ -17,6 +17,19 @@ header {
   justify-content: space-around;
 }
 
+.nav-hidden ul {
+  display: flex;
+  list-style: none;
+}
+.nav-hidden li {
+  margin: 0 20px;
+}
+.nav-hidden li a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
 .logo h1 {
   color: white;
 }
@@ -263,6 +276,7 @@ footer {
     justify-content: space-between;
     margin: 0 10px;
   }
+
   .cont-sez1 {
     display: flex;
     flex-wrap: wrap;
@@ -306,5 +320,14 @@ footer {
   .cont5 .text-sez5 {
     text-align: center;
     margin: 0 20px;
+  }
+  .menu-container button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-hidden {
+    display: none;
   }
 }
